@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te amo</title>
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!-- FONT OSWALD -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+<!-- CUSTOM CSS-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+   <div class="menu-btn">
+       <i class="fas fa-bars fa-2x"></i>
+   </div>
+    
+    <div class="container">
+        <nav class="nav-main">
+            <img src="img/brand.png" alt="corazon" class="nav-brand">
+            <ul class="nav-menu show">
+                <li>
+                    <a href="#">Te amo</a>
+                </li>
+                <li>
+                    <a href="#">Eres la mejor</a>
+                </li>
+                <li>
+                    <a href="#">Para siempre</a>
+                </li>
+                <li>
+                    <a href="#">Me haces muy feliz</a>
+                </li>
+                <li>
+                    <a href="#">Eres lo mejor que me a pasado</a>
+                </li>
+            </ul>
+            <ul class="nav-menu-right">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <hr> 
+
+        <!-- SHOWCASE -->
+        <header class="showcase">
+            <h2>ESPOSOS</h2>
+            <p>Solo espero el momento en que en verdad lleguemos a casarnos y tener nuestra boda viviendo juntos</p>
+            <a href="#" class="btn">Read More <i class="fas fa-angle-double-right"></i></a>
+        </header>
+
+        <!-- NOSOTROS -->
+        <div class="guapos">
+            <div>
+                <img src="img/guapa.jpg" alt="guapa">
+                <h3>Quiero estar contigo siempre</h3>
+                <p>Pasar momentos bonitos contigo</p>
+            </div>
+
+            <div>
+                <img src="img/guapa2.jpeg" alt="guapa2">
+                <h3>Ser el amor de tu vida</h3>
+                <p>Hacer todo contigo</p>
+            </div>
+
+            <div>
+                <img src="img/guapa3.jpeg" alt="guapa3">
+                <h3>Quiero que seas tu solamente</h3>
+                <p>Prometo amarte siempre</p>
+            </div>
+
+            <div>
+                <img src="img/guapa4.jpeg" alt="guapa4">
+                <h3>Cuidarte</h3>
+                <p>Y darte lo que mereces</p>
+            </div>
+
+        </div>
+
+        <section class="banner-one">
+            <div>
+                <h2>JUNTOS PARA SIEMPRE</h2>
+                <p>Prometimos estar juntos siempre asi sera</p>
+                <a href="#" class="btn">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </section>
+
+        <section class="social">
+            <p>Social</p>
+            <div class="links">
+                <a href="https://www.facebook.com/rebeca.santamaria.716/map">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="https://www.instagram.com/beca_sc_/">
+                    <i class="fab fa-instagram-square"></i>
+                </a>
+
+            </div>
+        </section>
+    </div>
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- CUSTOM JS-->
+    <script src="main.js"></script>
+
+    <!-- scripts -->
+
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.showcase', {
+            duration: 2000,
+            origin: 'bottom'
+        });
+
+        sr.reveal('.guapos', {
+            duration: 2000,
+            origin: 'right'
+        });
+
+        sr.reveal('.banner-one', {
+            duration: 2000,
+            origin: 'top'
+        });
+
+        sr.reveal('.menu-btn', {
+            duration: 2000,
+            origin: 'left'
+        });
+
+        sr.reveal('.na-menu-right', {
+            duration: 2000,
+            origin: 'top'
+        });
+    </script>
+
+</body>
+</html>
